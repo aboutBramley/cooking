@@ -1,0 +1,416 @@
+
+body{
+	background-color: #f7ddd4;
+}
+
+h1,h2,h3{
+	font-family: 'Merriweather', 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
+}
+
+h1{
+	
+	font-size: 1.3em;
+	color: #093426;
+	padding: 0.5em;
+}
+
+h2{
+	font-size: 1.2em;
+	line-height: 1em;
+	color: #14B884;
+}
+h3{
+	font-size: 1.1em;
+	font-style: italic;
+	color: #448D76;
+	font-weight: 800;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+	font-size: 1em;
+	line-height: 1.1em;
+	color: #093426;
+}
+
+#wrapper{
+margin: 0 auto;
+width: 100%;
+}
+
+header{
+	color: #fff;
+	font-family: 'Merriweather', 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
+	font-size: 1.6em;
+	text-align: center;
+	font-style: italic;	
+	line-height: 3.5em;
+}
+
+#slogan{
+	background-image: url("https://speckyboy.com/wp-content/uploads/2008/06/06.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80px;
+	background-color: #14b884;
+	margin: 0 auto;
+}
+
+nav{
+background-color: #fd4d0c;
+color: #093426;
+font-family: 'PT Serif', serif;
+font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+line-height: 0.5em;
+margin: 0 auto;
+width: 100%;
+}
+#logo{
+	font-family: 'Pacifico', cursive;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Pacifico);	
+	color: #093426;
+	font-size: .9em;
+	border: 0 40px;
+	font-weight: 600;
+	padding: 0;
+	float: left;
+	padding-left: 5%;
+	padding-top: 1%;
+}
+
+.nav_header{font-family: 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+	line-height: 2em;
+	color: #093426;
+	font-size: 18px;
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding: 20px;
+	background-color: #fd4d0c;	
+}
+.nav_aside{
+	font-family: 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+	line-height: 2.3em;
+	color: #009900;
+	font-size: 18px;
+	display: block;
+	text-decoration: none;
+	padding: 5px 3px ;
+	background-color: #f2f2f2;
+}
+
+a:hover{
+	background-color: #093426;
+	color: #f7ddd4;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+footer{
+	margin: 0 auto;
+	text-align: right;
+	clear: both;
+	background-color: #093426;
+	color: #fd4d0c;
+	font-family: 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+	line-height: 1em;
+	padding: 10px;
+	font-size: .9em;
+}
+div{
+	display: block;
+}
+
+ul{
+	background-color: #f7ddd4;
+	text-decoration: none;
+	
+
+}
+li{
+	
+	line-height: 1.1em;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+	color: #093426;
+}
+
+#main{
+	width: 100%;
+	height: 80%;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	background-color: #fd4d0c;
+	color: #14b884;
+	font-size: 3.5em;
+	line-height: 1.5em;
+	text-align: center;
+	padding-top: 0.3em;
+
+}
+
+#main-budget{
+
+	width: 100%;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	background-color: #f7ddd4;
+	color: #448d76;
+	line-height: 0.5em;
+	text-align: left;
+	padding-left: 0.3em;
+	font-size: 2em;
+
+}
+#main-basics{
+
+	width: 100%;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	background-color: #f7ddd4;
+	color: #448d76;
+	line-height: 0.5em;
+	text-align: left;
+	padding-left: 0.3em;
+	font-size: 2em;
+
+}
+
+
+
+a#cv{
+color: #19334d;
+font-size: 1em;
+}	
+
+#cv:hover{
+	background-color: #19334d;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+a#writing{
+	color: #19334d;
+	font-size: 1em;
+}
+
+#writing:hover{
+	background-color: #19334d;
+	color: #fff;
+	text-decoration: none;
+}
+
+#pdfIcon{
+	border:none;
+	width: 32px;
+	height: 32.25px;
+	vertical-align: middle;
+}
+
+
+
+a#books{
+	color: #19334d;
+	font-size: 1em;
+}
+#books:hover{
+	background-color: #19334d;
+	color: #fff;
+	text-decoration: none;
+}
+article,aside{
+background-color: #f2f2f2;
+display: inline-block;
+float: left;
+width: 100%;
+margin: 0 auto;
+font-size: .8em;
+line-height: .8em;
+}
+
+
+.farming_text{
+background-color: #fff;
+color: #19334d;
+margin: .6em auto;
+padding: .6em;
+float: left;
+display: inline-block;
+width: 65%;
+}
+
+.homelogo{
+	float: left;
+	padding: 1em 1em;
+	float: left;
+	display: inline-block;
+	width: 15%;
+	margin: 2em;
+}
+
+.paragraph{
+
+color: #448D76;
+text-decoration: italic;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+#main{
+	float: none;
+	width: 100%;
+	height: 80%;
+}
+#column1,#column2,#column3{
+	float:none;
+	margin: 1% 8%;
+	width: 84%;
+}
+#book{
+	margin: 0 auto;
+	width: 80%;
+	height: 80%;
+}
+
+h1{
+font-size: 2em;
+line-height: .9em;
+}
+
+h2{
+font-size: 1.5em;
+line-height: .7em;
+}
+
+h3{
+font-size: 1.2em;
+line-height: .6em;
+}
+
+p{
+	font-size: 1.1em;
+	line-height: 1em;
+}
+article,aside{
+	width: 90%;
+	display: inline-block;
+	margin: 2%;
+	float: left;
+	padding: 2%;
+	font-size: .9em;
+	line-height: 1.1em;
+}
+
+.homelogo{
+	float: left;
+	margin:.1em 0 auto;
+	width: 25%;
+}
+.farming_text{
+	margin: 0 auto;
+	width: 60%;
+	padding: 1em;
+	font-size: 1em;
+	line-height: 1.1em;
+	float: left;
+	border: .1em #4d2600 solid;
+}
+.ref_logo{
+	size:50%;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+
+#main{
+	float: none;
+	width: 100%;
+}
+
+
+
+#resume{
+	display: block;
+	margin: 0 auto;
+}
+#book{
+	display: block;
+	margin: 0 auto;
+}
+#document{
+	display: block;
+	margin: 0 auto;
+}
+
+#slogan{
+	font-size: 1.2em;
+}
+
+
+
+
+h1{
+font-size: 2.8em;
+line-height: 1em;
+}
+
+
+h2{
+font-size: 2.5em;
+line-height: 1em;
+}
+
+h3{
+	font-size: 2em;
+	line-height: 1em;
+}
+p{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+
+article{
+	width: 100%;
+	margin: 2% auto;
+}
+aside{
+	width: 100%;
+	margin: 2% auto;
+}
+
+.homelogo{
+	display: none;
+}
+.farming_text{
+	margin: .2em auto;
+	width: 80%;
+	padding: 1em;
+	border: .1em #4d2600 solid;
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+}
+
