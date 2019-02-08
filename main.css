@@ -30,7 +30,7 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	font-family: @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 	font-size: 1em;
-	line-height: .8em;
+	line-height: 1em;
 	color: #093426;
 }
 
@@ -185,7 +185,7 @@ li{
 	margin: 0 auto;
 	background-color: #f7ddd4;
 	color: #448d76;
-	line-height: 0.5em;
+	line-height: 0.8em;
 	text-align: left;
 	padding-left: 0.3em;
 	font-size: 2em;
